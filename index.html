@@ -50,19 +50,28 @@
 
 
         <!--Main Layout-->
-        <main>
+        <main class="parallax">
                 <section id="one">
                     <span class="name"></span>
                     <div>
-
                     </div>
                 </section>
                 <section id="two">
-                    <div class="row" style="height:500px;">
-                        <div class="col-lg-4" style="">
-                            <img src="https://media.licdn.com/dms/image/C5603AQHKt0jUUbMcDg/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=Ac4cjI4RqINYVPHtdyihA5nm4kXa33-Tuwhejew8fag">
-                            picture of myself </div>
-                        <div class="col-lg-8">description of myself</div>
+                    <div class="row" >
+                        <div class="col-lg-3">
+                            <img id= "mypic" src="img/me.jpg" alt="picture of yours truly">
+                        </div>
+                        <div class="col-lg-9" style="font-size:20px;padding-left: 7.5%;padding-right: 10%;">
+                            <br>
+                            <br>
+                            <h1> About me </h1>
+                            <hr>
+                            <p >
+                                I am a current student at <strong>Baylor University</strong> studying <strong>Computer Science</strong>. I have a twin brother who rivals me by going to Texas A&amp;M. I am 20 years old and have been coding since I was 12. I like to play sports like volleyball and soccer and going to the gym.
+                                I am currently searching for a summer internship for the 2018-2019 year.
+                            </p>
+                            
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-2"> __Blank__</div>
@@ -85,11 +94,11 @@
                 </section>
                 <section id="four"> 
                     <div class="Parallax" > 
-                        Parallax effect maybe?
+                        Button to download resume
+                        Button to print resume
                     </div>
 
                 </section>
-            </div>
         </main>
         <!--Main Layout-->
 
@@ -122,12 +131,19 @@
             });
         </script>
 
-        <script type="text/javascript">
+        <script type="text/javascript">  
             new TypeIt('.name', {
-                 strings: ['My name is Michael Ibanez', 'And welcome to my website!'],
-                 breakLines: false
-            });
+                 autoStart: true
+            })  .type('My name is <strong>Michael Ibanez</strong>')
+                .pause(500)
+                .break()
+                .type('Welcome to my website!')
+                .pause(750)
+                .delete()
+                .pause(750)
+                .type('<strong> Hope you enjoy it! </strong>');
         </script>
+    
         
 	</body>
 </html>

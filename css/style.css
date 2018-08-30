@@ -1,13 +1,14 @@
 html,body, main{ 
     height: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 /* NavBar */
 nav{
-    max-height: 90px;
-    background-color: black;
+    max-height: 80px;
+    background-color: white;
     font-size: 19px; 
+
 }
 
 #navv{
@@ -16,7 +17,7 @@ nav{
 }
 
 #navv img{
-    max-height: 90px;
+    max-height: 80px;
     border-radius: 20px;
 }
 
@@ -33,18 +34,16 @@ nav{
 /* Main */
 section {
     /*padding-top:calc(90% - 100px);*/
-    padding: 500px 0;
-    
+    padding: 5.2% 0 500px 0;
     width: 75%;
+    height: 100%;
     margin-left: 12.5%;
     margin-right: 12.5%;
-    
-    
 }
 
 /* Home */
 #one {
-    background-color: #E74C3C;
+    background-color: white;
     text-align: center;
     vertical-align:middle;
     font-size: 25pt;
@@ -52,15 +51,23 @@ section {
 
 /* About */
 #two {
-    background-color: #FCC04D;
+    background-color: white;
     text-align: center;
     vertical-align:middle;
     font-size: 25pt;
 }
 
+#mypic {
+    height: 100%;
+    width: 100%;
+    padding-left: 1%;
+    border-radius: 8px;
+    opacity: 0.85;
+}
+
 /* Projects */
 #three {
-    background-color: #4ECDC4;
+    background-color: #FFFFFF;
     text-align: center;
     vertical-align:middle;
     font-size: 25pt;
@@ -68,7 +75,7 @@ section {
 
 /* Resume */
 #four {
-    background-color: #3BB17C;
+    background-color: #FFFFFF;
     text-align: center;
     vertical-align:middle;
     font-size: 25pt;
