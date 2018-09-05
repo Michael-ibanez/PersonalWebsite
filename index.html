@@ -9,13 +9,13 @@
 		<meta name="author" content="Michael Ibanez" />
         <!-- My CSS -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
-	  	<link href="css/style.css" rel="stylesheet">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Bootstrap core CSS -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
         <!-- Material Design Bootstrap -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
        
     </head>
 
@@ -23,24 +23,24 @@
 
     <!--Main Navigation-->
         <header>
-          <nav class="navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar" id = "navv">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar"  id = "navv">
             <a class="navbar-brand"> <img src = "img/M-2.png" ></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav ">
+              <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="#one" >Home</a>
+                  <a href="#one" style="color: black;">Home</a>
+                </li>
+                <li class="nav-item" >
+                  <a href="#two" style="color: black;">About</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#two" >About</a>
+                  <a href="#three" style="color: black;">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#three" >Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#four" >Resume</a>
+                  <a href="#four" style="color: black;">Resume</a>
                 </li>
                 </ul>
             </div>
@@ -53,7 +53,8 @@
         <main class="parallax">
                 <section id="one">
                     <span class="name"></span>
-                    <div>
+                    <div class="blquote">
+                        <p> Good, better, best. Never let it rest. 'Til your good is better and your better is best. </p>
                     </div>
                 </section>
                 <section id="two">
@@ -84,16 +85,12 @@
                 </section>
                 <section id="three">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-12">
                             <strong> Projects </strong>
                             <br>
                             <hr>
                         </div>
-                        <div class="col-lg-9">
-                            <strong> Desc </strong>
-                            <br>
-                            <hr>
-                        </div>
+                        
                     </div>
                     <div class="row">
                         <div class="col-lg-3">
@@ -102,6 +99,8 @@
                             </a>
                         </div>
                         <div class="col-lg-9" style="font-size:20px;padding-left: 8%;padding-right: 10%; ">
+                            <strong style="font-size: 22px;">Potato Website</strong>
+                            <br>
                             <p> This is a website I created for a hackathon at Baylor University. Created with HTML,CSS,JavaScript (Credits: Sean Blonien &amp; Ben Milligan) </p>
                             <br>
                         </div>
@@ -113,6 +112,8 @@
                             </a>
                         </div>
                         <div class="col-lg-9" style="font-size:20px;padding-left: 8%;padding-right: 10%; ">
+                            <strong style="font-size: 22px;">Pokemon GO</strong>
+                            <br>
                             <p> This is a Pokemon Go game I created for my Intro to Computer Science Project. Created with C++ (Credits: Mario Lopez, Ben Milligan) </p>
                             <br>
                         </div>
@@ -124,15 +125,23 @@
                             </a>
                         </div>
                         <div class="col-lg-9" style="font-size:20px;padding-left: 8%;padding-right: 10%; ">
+                            <strong style="font-size: 22px;">Currency Converter</strong>
+                            <br>
                             <p> This is my project I created for Software Engineering 1. It is a currency converter with the ability to transfer from various different currencies. It was created with Java. </p>
                             <br>
                         </div>
                     </div>
                 </section>
                 <section id="four"> 
-                    <div class="parallax" > 
-                        Button to download resume
-                        Button to print resume
+                    <div class="row" > 
+                        <div class="col-lg-9" >
+                            <img src="img/cResumePic.png" style="max-width:65%;">
+                        </div>
+                        <div class="col-lg-3" style="padding-top: 27.5%;">
+                            <strong> Download </strong>
+                            <br>
+                            <a class="fa fa-file-pdf-o" title="" target="_blank" href="img/cResume.docx"> </a>
+                        </div>
                     </div>
 
                 </section>

@@ -8,12 +8,14 @@ nav{
     max-height: 80px;
     background-color: white;
     font-size: 19px; 
+    color: white;
 
 }
 
 #navv{
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 #navv img{
@@ -47,6 +49,16 @@ section {
     text-align: center;
     vertical-align:middle;
     font-size: 25pt;
+    color: black;
+}
+
+.blquote{
+    padding-top: 25%;
+    padding-bottom: 20%;
+    background-color: red;
+    min-width: 100%;
+    min-height: 100%;
+    
 }
 
 /* About */
