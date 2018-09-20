@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700),
         url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400),
         url(https://fonts.googleapis.com/css?family=Roboto:100);
+@col: #0f1d24;
 
 html,body, main{ 
     height: 100%;
     background-color: white;
 }
-s
+
 /* NavBar */
 nav{
     max-height: 80px;
@@ -55,13 +56,14 @@ section {
     font-size: 25pt;
     color: black;
 }
-$black : hsl(200, 40, 10)
+
 
 .blquote {
 
-  position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
   padding-left: 1em;
-  border-left: 0.2em solid lighten($black, 40%);
+  border-left: 0.2em solid ;
   font-family: 'Roboto', serif;
   font-size: 2.4em;
   line-height: 1.5em;
@@ -70,7 +72,7 @@ $black : hsl(200, 40, 10)
 .blquote:before, .blquote:after {
       content: '\201C';
       font-family: 'Sanchez';
-      color: lighten($black, 40%);
+      color: lighten(aqua, 40%);
    }
 .blquote:after {
       content: '\201D';
@@ -93,8 +95,6 @@ $black : hsl(200, 40, 10)
 }
 
 .hvr-icon-grow {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -112,8 +112,8 @@ $black : hsl(200, 40, 10)
   transition-timing-function: ease-out;
 }
 .hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
-  -webkit-transform: scale(1.3) translateZ(0);
-  transform: scale(1.3) translateZ(0);
+  -webkit-transform: scale(1.1) translateZ(0);
+  transform: scale(1.1) translateZ(0);
 }
 
 /* Projects */
@@ -134,7 +134,6 @@ $black : hsl(200, 40, 10)
 }
 
 
-
 /* Resume */
 #four {
     background-color: #FFFFFF;
@@ -142,8 +141,6 @@ $black : hsl(200, 40, 10)
     vertical-align:middle;
     font-size: 25pt;
 }
-
-
 
 .Paralljax{
     display: flex;
@@ -177,6 +174,7 @@ footer{
 
 
 @media screen and (max-width:860px) {
+    
 
 }
 
