@@ -1,3 +1,3 @@
 Personal website in progress...
 
-https://michael-ibanez.github.io/PersonalWebsite/
+https://michaelibanez.org
