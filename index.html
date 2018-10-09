@@ -71,7 +71,7 @@
                             <img id= "mypic" src="img/me.jpg" alt="picture of yours truly">
                         </div>
                         <!-- My bio -->
-                        <div class="col-lg-9" style="font-size:20px;padding-left: 7.5%;padding-right: 10%;">
+                        <div class="col-lg-9" >
                             <br>
                             <br>
                             <h1> About me </h1>
@@ -176,24 +176,26 @@
 
                 </section>
                 <section id="five">
-        
-                        <form action="https://formspree.io/michael_ibanez@baylor.edu" method="POST" class='form'>
-                          <p class='field required half'>
-                            <label class='label required' for='name'>Name</label>
-                            <input class='text-input' id='name' name='name' required type='text'>
-                          </p>
-                          <p class='field required half'>
-                            <label class='label' for='email'>E-mail</label>
-                            <input class='text-input' id='email' name='_replyto' required type='email'>
-                          </p>
-                          <p class='field'>
-                            <label class='label' for='message'>Message</label>
-                            <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
-                          </p>
-                          <p class='field'>
-                            <input class='button' type='submit' value='Send message'>
-                          </p>
-                        </form>
+                    <div id="cMe">
+                        <h1> Contact Me </h1>
+                    </div>
+                    <form action="https://formspree.io/michael_ibanez@baylor.edu" method="POST" class='form'>
+                      <p class='field required half'>
+                        <label class='label required' for='name'> </label>
+                        <input class='text-input' id='name' name='name' placeholder="Name" required type='text'>
+                      </p>
+                      <p class='field required half'>
+                        <label class='label' for='email'> </label>
+                        <input class='text-input' id='email' name='_replyto' placeholder="E-Mail" required type='email'>
+                      </p>
+                      <p class='field'>
+                        <label class='label' for='message'> </label>
+                        <textarea class='textarea' cols='50' id='message' name='message' placeholder="Message" required rows='4'></textarea>
+                      </p>
+                      <p class='field'>
+                        <input class='button' type='submit' value='Send message'>
+                      </p>
+                    </form>
                     
                 </section>
         </main>

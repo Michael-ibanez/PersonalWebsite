@@ -86,6 +86,12 @@ section {
     font-size: 25pt;
 }
 
+#two .row .col-lg-9{
+    font-size:20px;
+    padding-left: 7.5%;
+    padding-right: 10%;
+}
+
 #mypic {
     height: 100%;
     width: 110%;
@@ -153,6 +159,13 @@ section {
 /* Contact me */
 #five{
     background-color: #FFFFFF;
+    padding-top: 10%;
+}
+
+#cMe{
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
@@ -319,6 +332,110 @@ footer{
 }
 
 @media (max-width: 480px) {
+    section {
+    /*padding-top:calc(90% - 100px);*/
+    padding: 5.2% 0 500px 0;
+    min-width: 75%;
+    min-height: 100%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    }
+
+    /* Home */
+    #one {
+        padding-top: 20%;
+        background-color: white;
+        text-align: center;
+        vertical-align:middle;
+        font-size: 8pt;
+        color: black;
+    }
+
+
+    .blquote {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1em;
+        border-left: 0.2em solid ;
+        font-family: 'Roboto', serif;
+        font-size: 2.4em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+    .blquote:before, .blquote:after {
+          content: '\201C';
+          font-family: 'Sanchez';
+          color: lighten(aqua, 40%);
+       }
+    .blquote:after {
+          content: '\201D';
+       }
+
+    /* About */
+    #two {
+        background-color: white;
+        text-align: center;
+        vertical-align:middle;
+        font-size: 20pt;
+    }
+    
+    #two.row.col-lg-9{
+        font-size: 3px;
+    }
+
+    #mypic {
+        height: 100%;
+        width: 90%;
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+    }
+
+    /* Projects */
+    #three {
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align:middle;
+        font-size: 10pt;
+    }
+
+    #three .row .col-lg-9{
+        font-size:20px;
+        padding-left: 17%;
+        padding-right: 17%;
+        margin-bottom: 4%;
+
+    }
+
+    #three .row .col-lg-3.a.img{
+        max-width: 80%;
+    }
+
+    #three .row .col-lg-3{
+        margin-bottom:4%;
+    }
+
+
+    /* Resume */
+    #four {
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align:middle;
+        font-size: 25pt;
+    }
+
+    /* Contact me */
+    #five{
+        background-color: #FFFFFF;
+        padding-top: 10%;
+    }
+
+    #cMe{
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
   
 }
 
