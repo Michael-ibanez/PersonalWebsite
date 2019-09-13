@@ -25,11 +25,13 @@
 
     <!--Main Navigation-->
     <header>
+
         <nav class="navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar" id="navv">
             <a class="navbar-brand"> <img src="img/M-2.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
             </button>
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -50,6 +52,7 @@
                 </ul>
             </div>
         </nav>
+
     </header>
     <!--Main Navigation-->
 
@@ -228,7 +231,7 @@
                     <label class='label' for='message'> </label>
                     <textarea class='textarea' cols='50' id='message' name='message' placeholder="Message" required rows='4'></textarea>
                 </p>
-                <p class='field'>
+                <p class='field' style='margin-right: 8%;'>
                     <input class='button' type='submit' value='Send message'>
                 </p>
             </form>
@@ -253,6 +256,7 @@
     <!-- Smooth Scrolling effect -->
     <script type="text/javascript">
         swinch.init(null, {
+            duration: 700,
             onBeforeSnap: function(current, next, direction) {
                 console.log('onBeforeSnap', current, next, direction);
             },
@@ -274,6 +278,24 @@
             .delete()
             .pause(750)
             .type('<strong> Hope you enjoy it! </strong>');
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.first-button').on('click', function() {
+
+                $('.animated-icon1').addClass('open');
+
+            });
+
+            $('.navbar-nav a').on("click", function() {
+                $('.animated-icon1').removeClass('open');
+                $('#navbarNav').removeClass('show');
+            });
+
+
+        });
 
     </script>
 </body>
