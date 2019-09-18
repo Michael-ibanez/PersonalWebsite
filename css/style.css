@@ -108,11 +108,18 @@ section {
 }
 
 #mypic {
-    height: 100%;
-    width: 110%;
     padding-left: 1%;
     border-radius: 8px;
     opacity: 0.85;
+    width: 0px;
+    height: 0px;
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-left: 300px;
+    padding-bottom: 300px;
+    margin-left: 10px;
+    background: url(/img/me.jpg);
+    background-size: cover;
 }
 
 .fa-lg:hover {
@@ -162,6 +169,55 @@ section {
 #three .row .col-lg-3 a img {
     width: 100%;
     border-radius: 15px;
+}
+
+#Torito {
+    width: 0px;
+    height: 0px;
+    padding: 105px;
+    background: url(/img/elTorito.png);
+    background-size: cover;
+}
+
+#Potatoes {
+    width: 0px;
+    height: 0px;
+    padding: 105px;
+    background: url(/img/potatoes.png);
+    background-size: cover;
+}
+
+#Pokemon {
+    width: 0px;
+    height: 0px;
+    padding: 105px;
+    background: url(/img/pokemon.png);
+    background-size: contain;
+}
+
+#Currency {
+    width: 0px;
+    height: 0px;
+    padding: 105px;
+    background: url(/img/converter.png);
+    background-size: cover;
+}
+
+#Pet {
+    width: 0px;
+    height: 0px;
+    padding: 90px;
+    background: url(/img/Tempeturs.png);
+    background-size: cover;
+    align-content: center;
+}
+
+#Curr {
+    width: 0px;
+    height: 0px;
+    padding: 105px;
+    background: url(/img/CurrSample.png);
+    background-size: cover;
 }
 
 
@@ -373,12 +429,252 @@ footer {
 /* End-Footer */
 
 
-@media screen and (max-width:860px) {}
+@media screen and (max-width:1100px) and (min-width: 861px) {
 
+    /* NavBar */
+    nav {
+        max-height: 80px;
+        background-color: white;
+        font-size: 19px;
+        color: white;
+    }
 
-@media screen and (max-width:700px) {}
+    #navv {
+        margin-right: -8%;
+    }
 
-@media (max-width: 480px) {
+    #navv img {
+        max-height: 55px;
+        border-radius: 12px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: 3.5%;
+    }
+
+    .nav-item {
+        font-size: 11pt;
+        width: 10vw;
+        padding-right: 7vw;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    /* End-NavBar */
+    section {
+        /*padding-top:calc(90% - 100px);*/
+        padding: 5.2% 0 500px 0;
+        min-width: 75%;
+        min-height: 100%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    /* Home */
+    #one {
+        padding-top: 20%;
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+        color: black;
+    }
+
+    #one .container .name {
+        font-size: 20pt;
+    }
+
+    .blquote {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1em;
+        border-left: 0.2em solid;
+        font-family: 'Roboto', serif;
+        font-size: 2.4em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .blquote:before,
+    .blquote:after {
+        content: '\201C';
+        font-family: 'Sanchez';
+        color: lighten(aqua, 40%);
+    }
+
+    .blquote:after {
+        content: '\201D';
+    }
+
+    /* About */
+    #two {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+    }
+
+    #two .row .col-lg-3 {
+        font-size: 8pt;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -2%;
+        padding-top: 16%;
+    }
+
+    #two .row .col-lg-9 h1 {
+        font-size: 23pt;
+    }
+
+    .social {
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 12pt;
+        width: 150px;
+        margin-left: 0px;
+        margin-top: -250px;
+    }
+
+    #two .row .col-lg-9 {
+        font-size: 14pt;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -5%;
+    }
+
+    #mypic {
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 150px;
+        padding-right: 180px;
+        padding-left: 20px;
+        padding-bottom: 150px;
+        margin-left: -30px;
+        margin-top: -60px;
+        background: url(/img/me486.jpg);
+        background-size: cover;
+    }
+
+    /* Projects */
+    #three {
+        padding-top: 80px;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 23pt;
+    }
+
+    #three .row .col-lg-9 {
+        font-size: 20px;
+        padding-left: 17%;
+        padding-right: 17%;
+        margin-bottom: 4%;
+
+    }
+
+    #three .row .col-lg-3 a img {
+        max-width: 70%;
+        max-height: 90%;
+        border-radius: 8px;
+    }
+
+    #three .row .col-lg-3 {
+        margin-bottom: 4%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/pokemon536.png);
+        background-size: contain;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 18px;
+        background: url(/img/Tempeturs407.png);
+        background-size: contain;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 45px;
+        background: url(/img/CurrSample572.png);
+        background-size: contain;
+    }
+
+    /* Resume */
+    #four {
+        padding-top: 12.5%;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25pt;
+    }
+
+    /* Contact me */
+    #five {
+
+        background-color: #FFFFFF;
+        padding-top: 10.5%;
+    }
+
+    #cMe {
+        font-size: 15pt;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #cMe.p {
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:860px) and (min-width: 751px) {
 
     /* NavBar */
     nav {
@@ -489,11 +785,17 @@ footer {
     }
 
     #mypic {
-        height: 100%;
-        width: 90%;
         padding-left: 1%;
         border-radius: 8px;
         opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 140px;
+        padding-right: 30px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        background: url(/img/me486.jpg);
+        background-size: cover;
     }
 
     /* Projects */
@@ -516,12 +818,752 @@ footer {
     #three .row .col-lg-3 a img {
         max-width: 70%;
         max-height: 90%;
+        border-radius: 8px;
     }
 
     #three .row .col-lg-3 {
         margin-bottom: 4%;
     }
 
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/pokemon536.png);
+        background-size: contain;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 18px;
+        background: url(/img/Tempeturs407.png);
+        background-size: contain;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 45px;
+        background: url(/img/CurrSample572.png);
+        background-size: contain;
+    }
+
+    /* Resume */
+    #four {
+        padding-top: 22.5%;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25pt;
+    }
+
+    /* Contact me */
+    #five {
+
+        background-color: #FFFFFF;
+        padding-top: 20.5%;
+    }
+
+    #cMe {
+        font-size: 15pt;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #cMe.p {
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:750px) and (min-width: 501px) {
+
+    /* NavBar */
+    nav {
+        max-height: 80px;
+        background-color: white;
+        font-size: 19px;
+        color: white;
+    }
+
+    #navv {
+        margin-right: -8%;
+    }
+
+    #navv img {
+        max-height: 55px;
+        border-radius: 12px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: 3.5%;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    /* End-NavBar */
+    section {
+        /*padding-top:calc(90% - 100px);*/
+        padding: 5.2% 0 500px 0;
+        min-width: 75%;
+        min-height: 100%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    /* Home */
+    #one {
+        padding-top: 10%;
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+        color: black;
+    }
+
+    #one .container .name {
+        font-size: 20pt;
+    }
+
+    .blquote {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1em;
+        border-left: 0.2em solid;
+        font-family: 'Roboto', serif;
+        font-size: 2.4em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .blquote:before,
+    .blquote:after {
+        content: '\201C';
+        font-family: 'Sanchez';
+        color: lighten(aqua, 40%);
+    }
+
+    .blquote:after {
+        content: '\201D';
+    }
+
+    /* About */
+    #two {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+    }
+
+    #two .row .col-lg-3 {
+        font-size: 20px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -2%;
+        padding-top: 16%;
+    }
+
+    #two .row .col-lg-9 h1 {
+        font-size: 14px;
+
+    }
+
+    #two .row .col-lg-9 {
+        font-size: 10px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -5%;
+    }
+
+    #mypic {
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 97px;
+        padding-right: 30px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        margin-top: -40px;
+        margin-bottom: -15px;
+        background: url(/img/me486.jpg);
+        background-size: contain;
+    }
+
+    /* Projects */
+    #three {
+        padding-top: 80px;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15pt;
+    }
+
+    #three .row .col-lg-9 {
+        font-size: 20px;
+        padding-left: 17%;
+        padding-right: 17%;
+        margin-bottom: 4%;
+
+    }
+
+    #three .row .col-lg-3 a img {
+        max-width: 70%;
+        max-height: 90%;
+        border-radius: 8px;
+    }
+
+    #three .row .col-lg-3 {
+        margin-bottom: 4%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/pokemon536.png);
+        background-size: contain;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 18px;
+        background: url(/img/Tempeturs407.png);
+        background-size: contain;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 45px;
+        background: url(/img/CurrSample572.png);
+        background-size: contain;
+    }
+
+    /* Resume */
+    #four {
+        padding-top: 22.5%;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25pt;
+    }
+
+    /* Contact me */
+    #five {
+
+        background-color: #FFFFFF;
+        padding-top: 20.5%;
+    }
+
+    #cMe {
+        font-size: 15pt;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #cMe.p {
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* NavBar */
+    nav {
+        max-height: 80px;
+        background-color: white;
+        font-size: 19px;
+        color: white;
+    }
+
+    #navv {
+        margin-right: -8%;
+    }
+
+    #navv img {
+        max-height: 55px;
+        border-radius: 12px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: 3.5%;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    /* End-NavBar */
+    section {
+        /*padding-top:calc(90% - 100px);*/
+        padding: 5.2% 0 500px 0;
+        min-width: 75%;
+        min-height: 100%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    /* Home */
+    #one {
+        padding-top: 20%;
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+        color: black;
+    }
+
+    #one .container .name {
+        font-size: 20pt;
+    }
+
+    .blquote {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1em;
+        border-left: 0.2em solid;
+        font-family: 'Roboto', serif;
+        font-size: 2.4em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .blquote:before,
+    .blquote:after {
+        content: '\201C';
+        font-family: 'Sanchez';
+        color: lighten(aqua, 40%);
+    }
+
+    .blquote:after {
+        content: '\201D';
+    }
+
+    /* About */
+    #two {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+    }
+
+    #two .row .col-lg-3 {
+        font-size: 20px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -2%;
+        padding-top: 16%;
+    }
+
+    #two .row .col-lg-9 h1 {
+        font-size: 18px;
+
+    }
+
+    #two .row .col-lg-9 {
+        font-size: 10px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -5%;
+    }
+
+    #mypic {
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 140px;
+        padding-right: 30px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        background: url(/img/me486.jpg);
+        background-size: cover;
+    }
+
+    /* Projects */
+    #three {
+        padding-top: 80px;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15pt;
+    }
+
+    #three .row .col-lg-9 {
+        font-size: 20px;
+        padding-left: 17%;
+        padding-right: 17%;
+        margin-bottom: 4%;
+
+    }
+
+    #three .row .col-lg-3 a img {
+        max-width: 70%;
+        max-height: 90%;
+        border-radius: 8px;
+    }
+
+    #three .row .col-lg-3 {
+        margin-bottom: 4%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        padding-bottom: 20px;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/pokemon536.png);
+        background-size: contain;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 85px;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 70px;
+        padding-bottom: 18px;
+        background: url(/img/Tempeturs407.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 50px;
+        background: url(/img/CurrSample572.png);
+        background-size: cover;
+    }
+
+    /* Resume */
+    #four {
+        padding-top: 22.5%;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25pt;
+    }
+
+    /* Contact me */
+    #five {
+
+        background-color: #FFFFFF;
+        padding-top: 20.5%;
+    }
+
+    #cMe {
+        font-size: 15pt;
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #cMe.p {
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 600px) {
+
+    /* NavBar */
+    nav {
+        max-height: 80px;
+        background-color: white;
+        font-size: 19px;
+        color: white;
+    }
+
+    #navv {
+        margin-right: -8%;
+    }
+
+    #navv img {
+        max-height: 55px;
+        border-radius: 12px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: 3.5%;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    /* End-NavBar */
+    section {
+        /*padding-top:calc(90% - 100px);*/
+        padding: 5.2% 0 500px 0;
+        min-width: 75%;
+        min-height: 100%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    /* Home */
+    #one {
+        padding-top: 30%;
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+        color: black;
+    }
+
+    #one .container .name {
+        font-size: 20pt;
+    }
+
+    .blquote {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1em;
+        border-left: 0.2em solid;
+        font-family: 'Roboto', serif;
+        font-size: 2.4em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .blquote:before,
+    .blquote:after {
+        content: '\201C';
+        font-family: 'Sanchez';
+        color: lighten(aqua, 40%);
+    }
+
+    .blquote:after {
+        content: '\201D';
+    }
+
+    #mypic {
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 140px;
+        padding-right: 30px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        background: url(/img/me486.jpg);
+        background-size: cover;
+    }
+
+    /* About */
+    #two {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 8pt;
+    }
+
+    #two .row .col-lg-3 {
+        font-size: 20px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -2%;
+        padding-top: 16%;
+    }
+
+    #two .row .col-lg-9 h1 {
+        font-size: 18px;
+
+    }
+
+    #two .row .col-lg-9 {
+        font-size: 10px;
+        padding-left: 7.5%;
+        padding-right: 10%;
+        padding-bottom: -5%;
+    }
+
+    /* Projects */
+    #three {
+        padding-top: 80px;
+        background-color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15pt;
+    }
+
+    #three .row .col-lg-9 {
+        font-size: 20px;
+        padding-left: 17%;
+        padding-right: 17%;
+        margin-bottom: 4%;
+
+    }
+
+    #three .row .col-lg-3 a img {
+        max-width: 70%;
+        max-height: 90%;
+        border-radius: 8px;
+    }
+
+    #three .row .col-lg-3 {
+        margin-bottom: 4%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 80px;
+        background: url(/img/pokemon536.png);
+        background-size: contain;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 18px;
+        background: url(/img/Tempeturs407.png);
+        background-size: contain;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 75px;
+        padding-bottom: 45px;
+        background: url(/img/CurrSample572.png);
+        background-size: contain;
+    }
 
     /* Resume */
     #four {
