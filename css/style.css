@@ -706,6 +706,11 @@ footer {
         margin-right: 3.5%;
     }
 
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
+    }
+
     .first-button {
         margin-right: 5%;
     }
@@ -933,6 +938,11 @@ footer {
         align-content: center;
         text-align: center;
         margin-right: 3.5%;
+    }
+
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
     }
 
     .first-button {
@@ -1166,6 +1176,11 @@ footer {
         margin-right: 3.5%;
     }
 
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
+    }
+
     .first-button {
         margin-right: 5%;
     }
@@ -1364,7 +1379,7 @@ footer {
     }
 }
 
-@media (max-width: 400px) and (min-width: 600px) {
+@media (max-width: 400px) and (min-width: 200px) {
 
     /* NavBar */
     nav {
@@ -1394,6 +1409,11 @@ footer {
         align-content: center;
         text-align: center;
         margin-right: 3.5%;
+    }
+
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
     }
 
     .first-button {
@@ -1453,8 +1473,8 @@ footer {
         width: 0px;
         height: 0px;
         padding-top: 140px;
-        padding-right: 30px;
-        padding-left: 80px;
+        padding-right: 35px;
+        padding-left: 100px;
         padding-bottom: 20px;
         background: url(/img/me486.jpg);
         background-size: cover;
