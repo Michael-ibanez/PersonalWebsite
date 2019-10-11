@@ -1,3 +1,3 @@
-Personal website in progress...
-
+Take a look at my Personal Website!
+| | | | | | | | | | | | | | | | | |
 https://michaelibanez.org
