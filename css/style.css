@@ -113,11 +113,18 @@ nav {
 
 #Projects > .row > .Left {
     margin-bottom: 10%;
-
 }
 
 #Projects > .row > .Right {
     margin-top: 10%;
+}
+
+#Projects > div > div > div > strong {
+    font-size: 18pt;
+}
+
+#Projects > div > div > div > a {
+    font-size: 18pt;
 }
 
 #Torito {
@@ -186,19 +193,6 @@ nav {
 #Footer {
     padding-left: 12.5%;
     padding-right: 15%;
-}
-
-.edit {
-    background-color: black;
-    color: white;
-}
-
-.editNavReg {
-    color: black;
-}
-
-.editNavDif {
-    color: white;
 }
 
 #cMe {
@@ -523,13 +517,179 @@ nav {
         text-align: center;
         vertical-align: middle;
     }
-
-    #cMe.p {
-        padding-right: 5%;
-    }
 }
 
 @media (max-width: 400px) and (min-width: 200px) {
+    nav {
+        max-height: 80px;
+        font-size: 19px;
+        color: white;
+        margin: 1% 0% 0% 0%;
+    }
+
+    .fixed-top {
+        margin-left: 0px;
+        margin-right: 1px;
+        margin-top: 1px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .navbar-brand {
+        width: 20%;
+        padding-top: 0px;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    #PrefaceContainer {
+        height: 95vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 35%;
+        transition: background-color 3s ease;
+    }
+
+    #About {
+        padding-top: 12.5vh;
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        transition: background-color 1s ease;
+        font-size: 13px;
+    }
+
+    .PrefacePic {
+        width: 25vw;
+        height: 70vh;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .PrefaceWords {
+        color: black;
+        margin: 35% 0% 0% 0%;
+        display: inline-block;
+        font-size: 18pt;
+        width: 70vw;
+        z-index: 999;
+    }
+
+    .tText {
+        position: relative;
+        padding-top: 1.25%;
+        font-size: 29px;
+    }
+
+    .PrefacePicCurr {
+        width: 120%;
+        margin: -85% 0% 0% 225%;
+        z-index: -999;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: lightgray;
+    }
+
+    #About > div > div:nth-child(1) {
+        text-align: center;
+    }
+
+    #About > div > div:nth-child(2) > h1 {
+        font-size: 15px;
+    }
+
+    #About > div > div:nth-child(2) > hr {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #Projects {
+        padding-top: 12.5vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #Projects > div > div > div > strong {
+        font-size: 14px;
+    }
+
+    #Projects > div > div > div > a {
+        font-size: 14px;
+    }
+
+    #ProjectsHeader {
+        text-decoration: underline;
+        margin-bottom: 4.5%;
+        font-size: 15px;
+    }
+
+    #Projects > .row > .Left {
+        margin-bottom: 10%;
+    }
+
+    #Projects > .row > .Right {
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 70% 55% 10% 55%;
+        background: url(/img/elTorito.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 10% 35%;
+        background: url(/img/potatoes.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 0% 50%;
+        background: url(/img/pokemon.png);
+        background-size: cover;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 50% 40%;
+        background: url(/img/converter.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 30% 50% 10% 50%;
+        background: url(/img/Tempeturs.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 0% 40%;
+        background: url(/img/CurrSample.png);
+        background-size: cover;
+    }
+
+    #Resume {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 55% 50%;
+        background: url(/img/cResumePic.png);
+        background-size: cover;
+    }
+
     #mypic {
         padding-left: 1%;
         border-radius: 8px;
@@ -537,21 +697,136 @@ nav {
         width: 0px;
         height: 0px;
         padding-top: 140px;
-        padding-right: 35px;
+        padding-right: 100px;
         padding-left: 100px;
         padding-bottom: 20px;
-        background: url(/img/me486.jpg);
+        background: url(/img/M-3.jpeg);
         background-size: cover;
     }
 
-    #cMe {
-        font-size: 15pt;
-        align-content: center;
-        text-align: center;
-        vertical-align: middle;
+    #Contact {
+        padding-top: 7.5vh;
+        height: 90vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
     }
 
-    #cMe.p {
-        padding-right: 5%;
+    #cMe2 {
+        font-size: 15px;
+        text-align: left;
     }
+
+    .fa-3x {
+        font-size: 1em;
+    }
+
+    #Footer {
+        padding-bottom: 1%;
+        font-size: 9px;
+    }
+
+    #Footer > div > div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .col-md-6 {
+        width: 49%;
+    }
+}
+
+/* Hamburger Icon  */
+
+.animated-icon1 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon1 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+    background: black;
+}
+
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.edit {
+    background-color: black;
+    color: white;
+}
+
+.editNavReg {
+    color: black;
+}
+
+.editNavDif {
+    color: white;
+}
+
+.blackNav span {
+    background: black;
+    color: black;
+}
+
+.whiteNav span {
+    color: white;
+    background: white;
 }

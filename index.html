@@ -68,11 +68,11 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <!-- TODO: Fix and crop the Logo like we did with the picture of me -->
             <a class="navbar-brand" href="#"><img class="navbar-brandPic" src="img/M-2.png" alt="Michael Ibanez Avatar"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div id="animated-icon1"><span></span><span></span><span></span></div>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto topnav">
                     <li class="nav-item">
                         <a class="nav-link" id="navLink1" href="#About">About</a>
@@ -132,9 +132,8 @@
                             <img id="Torito" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">El Torito's Website</strong>
+                        <strong>El Torito's Website</strong>
                     </div>
                 </div>
                 <div class="col-lg-6 Project Right">
@@ -143,9 +142,8 @@
                             <img id="Potatoes" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">Potato Website</strong>
+                        <strong>Potato Website</strong>
                     </div>
                 </div>
             </div>
@@ -156,9 +154,8 @@
                             <img id="Pokemon" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">Pokemon GO</strong>
+                        <strong>Pokemon GO</strong>
                     </div>
                 </div>
                 <div class="col-lg-6 Project Right">
@@ -167,9 +164,8 @@
                             <img id="Currency" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">Currency Converter</strong>
+                        <strong>Currency Converter</strong>
                     </div>
                 </div>
             </div>
@@ -180,9 +176,8 @@
                             <img id="Pet" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">Pet Sitter</strong>
+                        <strong>Pet Sitter</strong>
                     </div>
                 </div>
                 <div class="col-lg-6 Project Right">
@@ -193,7 +188,7 @@
                     </div>
                     <br>
                     <div class="col-lg-12">
-                        <strong style="font-size: 18px;">Curriculum Project</strong>
+                        <strong>Curriculum Project</strong>
                     </div>
                 </div>
             </div>
@@ -204,7 +199,6 @@
                             <img id="Resume" src="img/hide.png">
                         </a>
                     </div>
-                    <br>
                     <div class="col-lg-12">
                         <a target="_blank" href="img/cResume.pdf" style="color: white"> Download </a>
                     </div>
@@ -216,7 +210,7 @@
         <!-- TODO: Add info in the contact me page -->
         <div id="Contact">
             <div id="cMe">
-                <h1 style="text-decoration: underline">Contact Me</h1>
+                <h1 id="cMe2" style="text-decoration: underline">Contact Me</h1>
             </div>
             <form action="https://formspree.io/michael_ibanez@baylor.edu" method="POST" class='form'>
                 <p class='field required half'>
@@ -258,11 +252,11 @@
         <div id="Footer">
             <hr style="border-top-color: white;black; margin: 0 0 0 0;padding-top: 0.5rem;padding-bottom: 0.5rem;">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     Thanks for stopping by!
                     <a class="fa fa-heart fa-stack-sm" title="" target="_blank"></a>
                 </div>
-                <div class="col-lg-6" style="text-align: right;">
+                <div class="col-md-6" style="text-align: right;">
                     © 2020 - Michael Ibanez
                 </div>
             </div>
@@ -281,7 +275,6 @@
     <script src="SlimScroller.js-master/dist/slimScroller.full.min.js"></script>
     <!--ScrollBackgroundColor-->
     <script type="text/javascript" src="js/scroll.js"></script>
-
     <script src="js/main.js"></script>
 
     <!-- INK: Cool effect for moving mouse -->
@@ -293,6 +286,18 @@
         window.addEventListener('load', function() {
             return slimScroller.bind(false, function(position) {
                 console.log('The current position is ' + position);
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.first-button').on('click', function() {
+                $('.animated-icon1').addClass('open');
+            });
+            $('.navbar-nav a').on("click", function() {
+                $('.animated-icon1').removeClass('open');
+                $('#navbarNav').removeClass('show');
             });
         });
     </script>

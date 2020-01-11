@@ -23,6 +23,7 @@ var Utils = new Utils();
 $(window).scroll(function () {
     // selectors
     var $window = $(window),
+        $0 = $('.animated-icon1'),
         $1 = $('#navLink1'),
         $2 = $('#navLink2'),
         $3 = $('#navLink3'),
@@ -42,18 +43,22 @@ $(window).scroll(function () {
         $P.addClass(' edit');
         $C.addClass(' edit');
         $F.addClass(' edit');
+        $0.addClass(' whiteNav');
         $1.addClass(' editNavDif');
         $2.addClass(' editNavDif');
         $3.addClass(' editNavDif');
+        $0.removeClass(' blackNav');
         $1.removeClass(' editNavReg');
         $2.removeClass(' editNavReg');
         $3.removeClass(' editNavReg');
         document.querySelector("body > div.root > nav > a > img").src = "../img/M-2invert.png";
         //console.log('in view');
     } else {
+        $0.addClass(' blackNav');
         $1.addClass(' editNavReg');
         $2.addClass(' editNavReg');
         $3.addClass(' editNavReg');
+        $0.removeClass(' whiteNav');
         $1.removeClass(' editNavDif');
         $2.removeClass(' editNavDif');
         $3.removeClass(' editNavDif');
