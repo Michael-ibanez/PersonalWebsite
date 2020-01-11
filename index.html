@@ -38,8 +38,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
     <!-- My CSS -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -54,91 +52,59 @@
 
         gtag('config', 'UA-148343571-1');
     </script>
-
-
-
-
 </head>
 
 <body>
-
-    <!--Main Navigation-->
-    <header>
-
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar" id="navv">
-            <a class="navbar-brand"> <img src="img/M-2.png"></a>
-            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon1"><span></span><span></span><span></span></div>
+    <div class="root">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <!-- TODO: Fix and crop the Logo like we did with the picture of me -->
+            <a class="navbar-brand" href="#"><img class="navbar-brandPic" src="img/M-2.png" alt="Michael Ibanez Avatar"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto topnav">
                     <li class="nav-item">
-                        <a href="#one" style="color: black;">Home</a>
+                        <a class="nav-link" id="navLink1" href="#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#two" style="color: black;">About</a>
+                        <a class="nav-link" id="navLink2" href="#Projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#three" style="color: black;">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#four" style="color: black;">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#five" style="color: black;">Contact</a>
+                        <a class="nav-link" id="navLink3" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-    </header>
-    <!--Main Navigation-->
-
-
-    <!--Main Layout-->
-    <main>
-        <!-- Home page -->
-        <section id="one">
-            <div class="container">
-                <blockquote class="blquote">
-                    Good, better, best. Never let it rest. 'Til your good is better and your better is best.
-                </blockquote>
-                <span class="name" style="min-width: 100%;min-height: 500px;"></span>
+        <div id="PrefaceContainer">
+            <div class="PrefacePic">
+                <div class="PrefaceWords">
+                    <div class="tText">Hey, <span style="text-decoration: underline"> I'm Michael.</span> A student at Baylor</div>
+                    <div class="tText"> Unversity in Waco, TX. Welcome to my </div>
+                    <div class="tText">website. Hope y'all enjoy it!</div>
+                </div>
+                <img class="PrefacePicCurr" src="img/meNew.png" alt="Michael Ibanez Avatar">
             </div>
-        </section>
-        <!-- About me page -->
-        <section id="two">
+        </div>
+        <div id="About">
             <div class="row">
                 <!-- My pic -->
-                <div class="col-lg-3">
+                <div class="col-lg-6">
                     <img id="mypic" src="img/hide.png" alt="picture of yours truly">
-
-
-                    <div class="social">
-                        <span class="fa-stack fa-md">
-                            <a class="fa fa-linkedin fa-stack-1x" title="" target="_blank" href="https://linkedin.com/in/michael-ibanez"></a>
-                            <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="https://linkedin.com/in/michael-ibanez"></a>
-                        </span>
-                        <span class="fa-stack fa-md">
-                            <a class="fa fa-github fa-stack-1x" title="" target="_blank" href="https://github.com/Michael-ibanez"></a>
-                            <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="https://github.com/Michael-ibanez"></a>
-                        </span>
-
-
-                    </div>
                 </div>
                 <!-- My bio -->
-                <div class="col-lg-9">
+                <div class="col-lg-6">
                     <br>
                     <br>
-                    <h1> About me </h1>
+                    <h1 style="text-decoration: underline"> About Me </h1>
                     <hr>
                     <p>
                         I am a current student at <strong>Baylor University</strong> studying <strong>Computer Science</strong>. I have a twin brother who rivals me by going to Texas A&amp;M. I am 21 years old and I like to play sports like volleyball and soccer and going to the gym.
                         <br>
                         <br>
-                        I love to program and have been programming since I was 12 because I used to participate in several FIRST Robotics teams(Check out my GitHub!). I really like networking, understanding how computers work and i've taken a CyberSecurity course at Baylor University. I'm currently in a Competitive Learning course at Baylor University, hoping to move onto the North America Championship early next year. I am searching for a summer internship for the 2019-2020 year for Software Developing or Cyber Security.
+                        I love to program and have been programming since I was 12 because I used to participate in several FIRST Robotics teams(Check out my GitHub!). I really like networking, understanding how computers work and i've taken a CyberSecurity course at Baylor University. I'm currently in a Competitive Learning course at Baylor University, hoping to move onto the North America Championship early next year. I am searching for a summer internship for the 2020-2021 year for Software Developing or Cyber Security.
                         <br>
                         <br>
                         If you have any questions, please feel free to reach out to me!
@@ -146,120 +112,102 @@
 
                 </div>
             </div>
-            <!-- My accounts -->
-        </section>
-        <!-- My projects -->
-        <section id="three">
-            <!-- Title -->
+        </div>
+        <!-- TODO: Add info in the about me page -->
+        <div id="Projects">
+            <h1 id="ProjectsHeader">My Projects</h1>
             <div class="row">
-                <div class="col-lg-12">
-                    <strong> Projects </strong>
+                <div class="col-lg-6 Project Left">
+                    <div class="col-lg-12">
+                        <a href="https://github.com/Michael-ibanez/ElTorito" target="_blank">
+                            <img id="Torito" src="img/hide.png">
+                        </a>
+                    </div>
                     <br>
-                    <hr>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">El Torito's Website</strong>
+                    </div>
+                </div>
+                <div class="col-lg-6 Project Right">
+                    <div class="col-lg-12">
+                        <a href="https://michael-ibanez.github.io/potatoes/" target="_blank">
+                            <img id="Potatoes" src="img/hide.png">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">Potato Website</strong>
+                    </div>
                 </div>
             </div>
-            <!-- El Torito -->
             <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://github.com/Michael-ibanez/ElTorito" target="_blank">
-                        <img id="Torito" src="img/hide.png">
-                    </a>
+                <div class="col-lg-6 Project Left">
+                    <div class="col-lg-12">
+                        <a href="https://github.com/Michael-ibanez/PokemonGo--Project" target="_blank">
+                            <img id="Pokemon" src="img/hide.png">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">Pokemon GO</strong>
+                    </div>
                 </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">El Torito's Website</strong>
+                <div class="col-lg-6 Project Right">
+                    <div class="col-lg-12">
+                        <a href="https://github.com/Michael-ibanez/JavaProject" target="_blank">
+                            <img id="Currency" src="img/hide.png">
+                        </a>
+                    </div>
                     <br>
-                    <p> This is a website I created for a friend in town who owns El Torito Sports Bar! </p>
-                    <br>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">Currency Converter</strong>
+                    </div>
                 </div>
             </div>
-            <!-- Potatoes -->
             <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://michael-ibanez.github.io/potatoes/" target="_blank">
-                        <img id="Potatoes" src="img/hide.png">
-                    </a>
+                <div class="col-lg-6 Project Left">
+                    <div class="col-lg-12">
+                        <a href="https://temperature-group5.herokuapp.com" target="_blank">
+                            <img id="Pet" src="img/hide.png">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">Pet Sitter</strong>
+                    </div>
                 </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">Potato Website</strong>
+                <div class="col-lg-6 Project Right">
+                    <div class="col-lg-12">
+                        <a href="https://github.com/shenoisam/DatabaseFinalProject" target="_blank">
+                            <img id="Curr" src="img/hide.png">
+                        </a>
+                    </div>
                     <br>
-                    <p> This is a website I created for a hackathon at Baylor University. Created with HTML,CSS,JavaScript (Credits: Sean Blonien &amp; Ben Milligan) </p>
-                    <br>
+                    <div class="col-lg-12">
+                        <strong style="font-size: 18px;">Curriculum Project</strong>
+                    </div>
                 </div>
             </div>
-            <!-- Pokemon go -->
             <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://github.com/Michael-ibanez/PokemonGo--Project" target="_blank">
-                        <img id="Pokemon" src="img/hide.png">
-                    </a>
+                <div class="col-lg-6 Project Left">
+                    <div class="col-lg-12">
+                        <a href="img/cResume.pdf" target="_blank">
+                            <img id="Resume" src="img/hide.png">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="col-lg-12">
+                        <a target="_blank" href="img/cResume.pdf" style="color: white"> Download </a>
+                    </div>
                 </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">Pokemon GO</strong>
-                    <br>
-                    <p> This is a Pokemon Go game I created for my Intro to Computer Science Project. Created with C++ (Credits: Mario Lopez &amp; Ben Milligan) </p>
-                    <br>
+                <div class="col-lg-6 Project Right">
                 </div>
             </div>
-            <!-- Currency Converter -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://github.com/Michael-ibanez/JavaProject" target="_blank">
-                        <img id="Currency" src="img/hide.png">
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">Currency Converter</strong>
-                    <br>
-                    <p> This is my project I created for Software Engineering 1. It is a currency converter with the ability to transfer from various different currencies. It was created with Java. </p>
-                    <br>
-                </div>
-            </div>
-            <!-- Pet Sitter -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://temperature-group5.herokuapp.com" target="_blank">
-                        <img id="Pet" src="img/hide.png">
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">Pet Sitter</strong>
-                    <br>
-                    <p> This is a project for Software Engineering 2. It was made using Java, Node and React.(Credits: Sean Blonien, Jack Titzman, John Eyre &amp; Jacob Sembroski). </p>
-                    <br>
-                </div>
-            </div>
-            <!-- DB Project -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <a href="https://github.com/shenoisam/DatabaseFinalProject" target="_blank">
-                        <img id="Curr" src="img/hide.png">
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                    <strong style="font-size: 22px;">Curriculum Project</strong>
-                    <br>
-                    <p> This is a project for my class called Database. The intention was to develop tools to maintain various information about curriculums. It was made using Node as our backend interface and React for our frontend. (Credits: Sam Shenoi &amp; Ben Milligan). </p>
-                    <br>
-                </div>
-            </div>
-
-        </section>
-        <section id="four">
-            <div class="row">
-                <div class="col-lg-9">
-                    <img src="img/cResumePic.png" style="max-width:65%;">
-                </div>
-                <div class="col-lg-3" style="padding-top: 27.5%;">
-                    <strong> Download </strong>
-                    <br>
-                    <a class="fa fa-file-pdf-o" title="" target="_blank" href="img/cResume.pdf"> </a>
-                </div>
-            </div>
-
-        </section>
-        <section id="five">
+        </div>
+        <!-- TODO: Add info in the contact me page -->
+        <div id="Contact">
             <div id="cMe">
-                <h1> Contact Me </h1>
+                <h1 style="text-decoration: underline">Contact Me</h1>
             </div>
             <form action="https://formspree.io/michael_ibanez@baylor.edu" method="POST" class='form'>
                 <p class='field required half'>
@@ -278,12 +226,41 @@
                     <input class='button' type='submit' value='Send message'>
                 </p>
             </form>
+            <div class="social">
+                <span class="fa-stack fa-3x">
+                    <a class="fa fa-linkedin fa-stack-1x" title="" target="_blank" href="https://linkedin.com/in/michael-ibanez"></a>
+                    <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="https://linkedin.com/in/michael-ibanez"></a>
+                </span>
+                <span class="fa-stack fa-3x">
+                    <a class="fa fa-github fa-stack-1x" title="" target="_blank" href="https://github.com/Michael-ibanez"></a>
+                    <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="https://github.com/Michael-ibanez"></a>
+                </span>
+                <span class="fa-stack fa-3x">
+                    <a class="fa fa-instagram fa-stack-1x" title="" target="_blank" href="https://instagram.com/Michael-ibanez"></a>
+                    <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="https://instagram.com/Michael-ibanez"></a>
+                </span>
+                <span class="fa-stack fa-3x">
+                    <a class="fa fa-envelope fa-stack-1x" title="" target="_blank" href="mailto: Michael_ibanez@baylor.edu"></a>
+                    <a class="fa fa-square-o fa-stack-2x" title="" target="_blank" href="mailto: Michael_ibanez@baylor.edu"></a>
+                </span>
+            </div>
+        </div>
+        <!-- TODO: Finish footer page -->
+        <div id="Footer">
+            <hr style="border-top-color: white;black; margin: 0 0 0 0;padding-top: 0.5rem;padding-bottom: 0.5rem;">
+            <div class="row">
+                <div class="col-lg-6">
+                    Thanks for stopping by!
+                    <a class="fa fa-heart fa-stack-sm" title="" target="_blank"></a>
+                </div>
+                <div class="col-lg-6" style="text-align: right;">
+                    © 2020 - Michael Ibanez
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </section>
-    </main>
-    <!--Main Layout-->
-
-    <!-- jQuery CDN -->
+    <!-- BootStrap CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
@@ -291,51 +268,21 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <!--SlimScroller-->
+    <script src="SlimScroller.js-master/dist/slimScroller.full.min.js"></script>
+    <!--ScrollBackgroundColor-->
+    <script type="text/javascript" src="js/scroll.js"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"> </script>
-    <!-- Swinch -->
-    <script type="text/javascript" src="swinch-master/dist/swinch.js">
-    </script>
-    <!-- Smooth Scrolling effect -->
-    <script type="text/javascript">
-        swinch.init(null, {
-            duration: 700,
-            onBeforeSnap: function(current, next, direction) {
-                console.log('onBeforeSnap', current, next, direction);
-            },
-            onSnapped: function(current, previous, direction) {
-                console.log('onSnapped', current, previous, direction);
-            }
-        });
-    </script>
-
-    <script type="text/javascript">
-        new TypeIt('.name', {
-                autoStart: true
-            }).type('My name is <strong>Michael Ibanez</strong>')
-            .pause(500)
-            .break()
-            .type('Welcome to my website!')
-            .pause(750)
-            .delete()
-            .pause(750)
-            .type('<strong> Hope you enjoy it! </strong>');
-    </script>
+    <!-- INK: Cool effect for moving mouse -->
 
     <script>
-        $(document).ready(function() {
-            $('.first-button').on('click', function() {
-
-                $('.animated-icon1').addClass('open');
-
+        window.addEventListener("load", () => {
+            document.querySelector("body").classList.add("loaded");
+        });
+        window.addEventListener('load', function() {
+            return slimScroller.bind(false, function(position) {
+                console.log('The current position is ' + position);
             });
-
-            $('.navbar-nav a').on("click", function() {
-                $('.animated-icon1').removeClass('open');
-                $('#navbarNav').removeClass('show');
-            });
-
-
         });
     </script>
 </body></html>

@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>slimScroller.js Demo</title>
+		<!-- These styles are not required for the actual plugin. Just for the demo. -->
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				font-family: sans-serif;
+				line-height: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<button onclick='slimScroller.scroll(300)'>Scroll to 300px</button>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<a href='#testPar'>Scroll to a paragraph via an anchor-tag.</a>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<button onclick='slimScroller.scroll("p:last-of-type")'>Scroll to last paragraph selector</button>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p id='testPar'>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<p>This is a line of text that does not serve any actual purpose but to waste some of your energy.</p>
+		<button onclick='slimScroller.scroll(document.querySelector("button:first-of-type"))'>Scroll to first button JS-element</button>
+
+		<script src='src/slimScroller.full.js'></script>
+		<script>
+			window.addEventListener('load', function (){
+				return slimScroller.bind(false, function (position){
+					console.log('The current position is '+position);
+				});
+			});
+		</script>
+	</body>
+</html>
