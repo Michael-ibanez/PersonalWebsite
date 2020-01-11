@@ -190,15 +190,19 @@ nav {
     padding-right: 15%;
 }
 
-#Footer {
-    padding-left: 12.5%;
-    padding-right: 15%;
-}
-
 #cMe {
     align-content: center;
     text-align: center;
     vertical-align: middle;
+}
+
+#submitButton {
+    margin-right: 8%;
+}
+
+#Footer {
+    padding-left: 12.5%;
+    padding-right: 15%;
 }
 
 .form .text-input,
@@ -412,35 +416,355 @@ nav {
 }
 
 @media screen and (max-width:1100px) and (min-width: 861px) {
+    .fixed-top {
+        margin-left: 0px;
+    }
+
+    .navbar-brand {
+        width: 12.5%;
+    }
+
+    .ml-auto {
+        margin-left: 70%;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    #PrefaceContainer {
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 10%;
+        transition: background-color 3s ease;
+    }
+
+    .PrefacePic {
+        width: 25vw;
+        height: 70vh;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .PrefaceWords {
+        color: black;
+        margin: 35% 0% 0% 0%;
+        display: inline-block;
+        font-size: 18pt;
+        width: 77.5vw;
+        z-index: 999;
+    }
+
+    .tText {
+        position: relative;
+        padding-top: 1.25%;
+        font-size: 37px;
+    }
+
+    .PrefacePicCurr {
+        width: 120%;
+        margin: -85% 0% 0% 225%;
+        z-index: -999;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: lightgray;
+    }
+
+    #About {
+        padding-top: 10vh;
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        transition: background-color 1s ease;
+        font-size: 18px;
+    }
+
     #mypic {
         padding-left: 1%;
         border-radius: 8px;
         opacity: 0.85;
         width: 0px;
         height: 0px;
-        padding-top: 150px;
-        padding-right: 180px;
-        padding-left: 20px;
-        padding-bottom: 150px;
-        margin-left: -30px;
-        margin-top: -60px;
-        background: url(/img/me486.jpg);
+        margin-top: 30%;
+        padding-top: 125px;
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-bottom: 200px;
+        background: url(/img/M-3.jpeg);
         background-size: cover;
     }
 
-    #cMe {
-        font-size: 15pt;
-        align-content: center;
+    #About > div > div:nth-child(1) {
         text-align: center;
-        vertical-align: middle;
     }
 
-    #cMe.p {
-        padding-right: 5%;
+    #About > div > div:nth-child(2) > h1 {
+        font-size: 15px;
     }
+
+    #About > div > div:nth-child(2) > hr {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #Projects {
+        padding-top: 16vh;
+        padding-left: 7.5%;
+    }
+
+    #Projects > div > div > div > strong {
+        font-size: 14px;
+    }
+
+    #Projects > div > div > div > a {
+        font-size: 14px;
+    }
+
+    #ProjectsHeader {
+        text-decoration: underline;
+        margin-bottom: 4.5%;
+        font-size: 15px;
+    }
+
+    #Projects > .row > .Left {
+        margin-bottom: 10%;
+    }
+
+    #Projects > .row > .Right {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 70% 55% 10% 55%;
+        background: url(/img/elTorito.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 10% 60%;
+        background: url(/img/potatoes.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 0% 50%;
+        background: url(/img/pokemon.png);
+        background-size: cover;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 50% 60%;
+        background: url(/img/converter.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 30% 50% 10% 50%;
+        background: url(/img/Tempeturs.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 0% 60%;
+        background: url(/img/CurrSample.png);
+        background-size: cover;
+    }
+
+    #Resume {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 55% 50%;
+        background: url(/img/cResumePic.png);
+        background-size: cover;
+    }
+
 }
 
-@media screen and (max-width:860px) and (min-width: 751px) {
+@media screen and (max-width:860px) and (min-width: 746px) {
+    nav {
+        max-height: 80px;
+        font-size: 19px;
+        color: white;
+        margin: 1% 0% 0% 0%;
+    }
+
+    .fixed-top {
+        margin-left: 0px;
+        margin-right: 1px;
+        margin-top: 1px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .navbar-brand {
+        width: 20%;
+        padding-top: 0px;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    #PrefaceContainer {
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 35%;
+        transition: background-color 3s ease;
+    }
+
+    #About {
+        padding-top: 12.5vh;
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        transition: background-color 1s ease;
+        font-size: 20px;
+    }
+
+    .PrefacePic {
+        width: 25vw;
+        height: 70vh;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .PrefaceWords {
+        color: black;
+        margin: 35% 0% 0% 0%;
+        display: inline-block;
+        font-size: 18pt;
+        width: 77.5vw;
+        z-index: 999;
+    }
+
+    .tText {
+        position: relative;
+        padding-top: 1.25%;
+        font-size: 29px;
+    }
+
+    .PrefacePicCurr {
+        width: 120%;
+        margin: -85% 0% 0% 225%;
+        z-index: -999;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: lightgray;
+    }
+
+    #About > div > div:nth-child(1) {
+        text-align: center;
+    }
+
+    #About > div > div:nth-child(2) > h1 {
+        font-size: 15px;
+    }
+
+    #About > div > div:nth-child(2) > hr {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #Projects {
+        padding-top: 12.5vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #Projects > div > div > div > strong {
+        font-size: 14px;
+    }
+
+    #Projects > div > div > div > a {
+        font-size: 14px;
+    }
+
+    #ProjectsHeader {
+        text-decoration: underline;
+        margin-bottom: 4.5%;
+        font-size: 15px;
+    }
+
+    #Projects > .row > .Left {
+        margin-bottom: 10%;
+    }
+
+    #Projects > .row > .Right {
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 70% 55% 10% 55%;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 10% 35%;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 0% 50%;
+        background: url(/img/pokemon536.png);
+        background-size: cover;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 50% 40%;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 30% 50% 10% 50%;
+        background: url(/img/Tempeturs407.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 0% 40%;
+        background: url(/img/CurrSample572.png);
+        background-size: cover;
+    }
+
+    #Resume {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 55% 50%;
+        background: url(/img/cResumePic.png);
+        background-size: cover;
+    }
+
     #mypic {
         padding-left: 1%;
         border-radius: 8px;
@@ -448,55 +772,220 @@ nav {
         width: 0px;
         height: 0px;
         padding-top: 140px;
-        padding-right: 30px;
-        padding-left: 80px;
+        padding-right: 100px;
+        padding-left: 100px;
         padding-bottom: 20px;
-        background: url(/img/me486.jpg);
+        background: url(/img/M-3Opt.jpeg);
         background-size: cover;
     }
 
-    #cMe {
-        font-size: 15pt;
-        align-content: center;
-        text-align: center;
-        vertical-align: middle;
+    #Contact {
+        padding-top: 7.5vh;
+        height: 90vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
     }
 
-    #cMe.p {
-        padding-right: 5%;
+    #cMe2 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #submitButton {
+        margin-right: 0%;
+    }
+
+    .fa-3x {
+        font-size: 2em;
+    }
+
+    #Footer {
+        padding-bottom: 1%;
+        font-size: 9px;
+    }
+
+    #Footer > div > div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .col-md-6 {
+        width: 49.5%;
     }
 }
 
-@media screen and (max-width:750px) and (min-width: 501px) {
-    #mypic {
-        padding-left: 1%;
-        border-radius: 8px;
-        opacity: 0.85;
+@media screen and (max-width:745px) and (min-width: 601px) {
+    nav {
+        max-height: 80px;
+        font-size: 19px;
+        color: white;
+        margin: 1% 0% 0% 0%;
+    }
+
+    .fixed-top {
+        margin-left: 0px;
+        margin-right: 1px;
+        margin-top: 1px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .navbar-brand {
+        width: 10%;
+        padding-top: 0px;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    #PrefaceContainer {
+        height: 100vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 1%;
+        transition: background-color 3s ease;
+    }
+
+    #About {
+        padding-top: 15vh;
+        margin-top: 10vh;
+        height: 175vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        transition: background-color 1s ease;
+        font-size: 13px;
+    }
+
+    .PrefacePic {
+        width: 25vw;
+        height: 70vh;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .PrefaceWords {
+        color: black;
+        margin: 35% 0% 0% 0%;
+        display: inline-block;
+        font-size: 18pt;
+        width: 77.5vw;
+        z-index: 999;
+    }
+
+    .tText {
+        position: relative;
+        padding-top: 1.25%;
+        font-size: 29px;
+    }
+
+    .PrefacePicCurr {
+        width: 80%;
+        margin: -50% 0% 0% 285%;
+        z-index: -999;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: lightgray;
+    }
+
+    #About > div > div:nth-child(1) {
+        text-align: center;
+    }
+
+    #About > div > div:nth-child(2) > h1 {
+        font-size: 15px;
+    }
+
+    #About > div > div:nth-child(2) > hr {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #Projects {
+        padding-top: 20vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #Projects > div > div > div > strong {
+        font-size: 14px;
+    }
+
+    #Projects > div > div > div > a {
+        font-size: 14px;
+    }
+
+    #ProjectsHeader {
+        text-decoration: underline;
+        margin-bottom: 4.5%;
+        font-size: 15px;
+    }
+
+    #Projects > .row > .Left {
+        margin-bottom: 10%;
+    }
+
+    #Projects > .row > .Right {
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    #Torito {
         width: 0px;
         height: 0px;
-        padding-top: 97px;
-        padding-right: 30px;
-        padding-left: 50px;
-        padding-bottom: 10px;
-        margin-top: -40px;
-        margin-bottom: -15px;
-        background: url(/img/me486.jpg);
-        background-size: contain;
+        padding: 30% 10% 0% 30%;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
     }
 
-    #cMe {
-        font-size: 15pt;
-        align-content: center;
-        text-align: center;
-        vertical-align: middle;
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 30% 15% 0% 30%;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
     }
 
-    #cMe.p {
-        padding-right: 5%;
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 30% 15% 0% 30%;
+        background: url(/img/pokemon536.png);
+        background-size: cover;
     }
-}
 
-@media screen and (max-width:500px) and (min-width: 421px) {
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 60% 17.5% 0% 30%;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 30% 50% 10% 50%;
+        background: url(/img/Tempeturs407.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 40% 50% 0% 10%;
+        background: url(/img/CurrSample572.png);
+        background-size: cover;
+    }
+
+    #Resume {
+        width: 0px;
+        height: 0px;
+        padding: 40% 10% 0% 20%;
+        background: url(/img/cResumePic.png);
+        background-size: cover;
+    }
+
     #mypic {
         padding-left: 1%;
         border-radius: 8px;
@@ -504,18 +993,265 @@ nav {
         width: 0px;
         height: 0px;
         padding-top: 140px;
-        padding-right: 30px;
-        padding-left: 80px;
+        padding-right: 100px;
+        padding-left: 100px;
         padding-bottom: 20px;
-        background: url(/img/me486.jpg);
+        background: url(/img/M-3Opt.jpeg);
         background-size: cover;
     }
 
-    #cMe {
-        font-size: 15pt;
-        align-content: center;
+    #Contact {
+        padding-top: 19vh;
+        height: 140vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #cMe2 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #submitButton {
+        margin-right: 0%;
+    }
+
+    .fa-3x {
+        font-size: 1.5em;
+    }
+
+    #Footer {
+        padding-bottom: 1%;
+        font-size: 9px;
+    }
+
+    #Footer > div > div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .col-md-6 {
+        width: 49.5%;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width: 421px) {
+    nav {
+        max-height: 80px;
+        font-size: 19px;
+        color: white;
+        margin: 1% 0% 0% 0%;
+    }
+
+    .fixed-top {
+        margin-left: 0px;
+        margin-right: 1px;
+        margin-top: 1px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .navbar-brand {
+        width: 20%;
+        padding-top: 0px;
+    }
+
+    .first-button {
+        margin-right: 5%;
+    }
+
+    #PrefaceContainer {
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 35%;
+        transition: background-color 3s ease;
+    }
+
+    #About {
+        padding-top: 12.5vh;
+        height: 95vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        transition: background-color 1s ease;
+        font-size: 13px;
+    }
+
+    .PrefacePic {
+        width: 25vw;
+        height: 70vh;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .PrefaceWords {
+        color: black;
+        margin: 35% 0% 0% 0%;
+        display: inline-block;
+        font-size: 18pt;
+        width: 77.5vw;
+        z-index: 999;
+    }
+
+    .tText {
+        position: relative;
+        padding-top: 1.25%;
+        font-size: 29px;
+    }
+
+    .PrefacePicCurr {
+        width: 120%;
+        margin: -85% 0% 0% 225%;
+        z-index: -999;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: lightgray;
+    }
+
+    #About > div > div:nth-child(1) {
         text-align: center;
-        vertical-align: middle;
+    }
+
+    #About > div > div:nth-child(2) > h1 {
+        font-size: 15px;
+    }
+
+    #About > div > div:nth-child(2) > hr {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #Projects {
+        padding-top: 12.5vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #Projects > div > div > div > strong {
+        font-size: 14px;
+    }
+
+    #Projects > div > div > div > a {
+        font-size: 14px;
+    }
+
+    #ProjectsHeader {
+        text-decoration: underline;
+        margin-bottom: 4.5%;
+        font-size: 15px;
+    }
+
+    #Projects > .row > .Left {
+        margin-bottom: 10%;
+    }
+
+    #Projects > .row > .Right {
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    #Torito {
+        width: 0px;
+        height: 0px;
+        padding: 70% 55% 10% 55%;
+        background: url(/img/elTorito180.png);
+        background-size: cover;
+    }
+
+    #Potatoes {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 10% 35%;
+        background: url(/img/potatoes332.png);
+        background-size: cover;
+    }
+
+    #Pokemon {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 0% 50%;
+        background: url(/img/pokemon536.png);
+        background-size: cover;
+    }
+
+    #Currency {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 50% 40%;
+        background: url(/img/converter455.png);
+        background-size: cover;
+    }
+
+    #Pet {
+        width: 0px;
+        height: 0px;
+        padding: 30% 50% 10% 50%;
+        background: url(/img/Tempeturs407.png);
+        background-size: cover;
+    }
+
+    #Curr {
+        width: 0px;
+        height: 0px;
+        padding: 70% 60% 0% 40%;
+        background: url(/img/CurrSample572.png);
+        background-size: cover;
+    }
+
+    #Resume {
+        width: 0px;
+        height: 0px;
+        padding: 70% 50% 55% 50%;
+        background: url(/img/cResumePic.png);
+        background-size: cover;
+    }
+
+    #mypic {
+        padding-left: 1%;
+        border-radius: 8px;
+        opacity: 0.85;
+        width: 0px;
+        height: 0px;
+        padding-top: 140px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        background: url(/img/M-3Opt.jpeg);
+        background-size: cover;
+    }
+
+    #Contact {
+        padding-top: 7.5vh;
+        height: 90vh;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #cMe2 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #submitButton {
+        margin-right: 0%;
+    }
+
+    .fa-3x {
+        font-size: 1em;
+    }
+
+    #Footer {
+        padding-bottom: 1%;
+        font-size: 9px;
+    }
+
+    #Footer > div > div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .col-md-6 {
+        width: 49.5%;
     }
 }
 
@@ -638,7 +1374,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 70% 55% 10% 55%;
-        background: url(/img/elTorito.png);
+        background: url(/img/elTorito180.png);
         background-size: cover;
     }
 
@@ -646,7 +1382,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 70% 60% 10% 35%;
-        background: url(/img/potatoes.png);
+        background: url(/img/potatoes332.png);
         background-size: cover;
     }
 
@@ -654,7 +1390,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 70% 50% 0% 50%;
-        background: url(/img/pokemon.png);
+        background: url(/img/pokemon536.png);
         background-size: cover;
     }
 
@@ -662,7 +1398,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 70% 60% 50% 40%;
-        background: url(/img/converter.png);
+        background: url(/img/converter455.png);
         background-size: cover;
     }
 
@@ -670,7 +1406,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 30% 50% 10% 50%;
-        background: url(/img/Tempeturs.png);
+        background: url(/img/Tempeturs407.png);
         background-size: cover;
     }
 
@@ -678,7 +1414,7 @@ nav {
         width: 0px;
         height: 0px;
         padding: 70% 60% 0% 40%;
-        background: url(/img/CurrSample.png);
+        background: url(/img/CurrSample572.png);
         background-size: cover;
     }
 
@@ -700,7 +1436,7 @@ nav {
         padding-right: 100px;
         padding-left: 100px;
         padding-bottom: 20px;
-        background: url(/img/M-3.jpeg);
+        background: url(/img/M-3Opt.jpeg);
         background-size: cover;
     }
 
@@ -735,7 +1471,7 @@ nav {
     }
 
     .col-md-6 {
-        width: 49%;
+        width: 49.5%;
     }
 }
 
