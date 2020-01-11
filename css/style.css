@@ -496,7 +496,7 @@ nav {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px) and (min-width: 421px) {
     #mypic {
         padding-left: 1%;
         border-radius: 8px;
@@ -519,7 +519,7 @@ nav {
     }
 }
 
-@media (max-width: 400px) and (min-width: 200px) {
+@media (max-width: 420px) and (min-width: 200px) {
     nav {
         max-height: 80px;
         font-size: 19px;
@@ -546,8 +546,8 @@ nav {
 
     #PrefaceContainer {
         height: 95vh;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
         padding-top: 35%;
         transition: background-color 3s ease;
     }
@@ -572,7 +572,7 @@ nav {
         margin: 35% 0% 0% 0%;
         display: inline-block;
         font-size: 18pt;
-        width: 70vw;
+        width: 77.5vw;
         z-index: 999;
     }
 
@@ -714,6 +714,10 @@ nav {
     #cMe2 {
         font-size: 15px;
         text-align: left;
+    }
+
+    #submitButton {
+        margin-right: 0%;
     }
 
     .fa-3x {
