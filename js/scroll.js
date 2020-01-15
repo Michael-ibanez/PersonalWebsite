@@ -51,7 +51,7 @@ $(window).scroll(function () {
         $1.removeClass(' editNavReg');
         $2.removeClass(' editNavReg');
         $3.removeClass(' editNavReg');
-        document.querySelector("body > div.root > nav > a > img").src = "../img/M-2invert.png";
+        document.querySelector("body > div.root > nav > a > img").src = "../img/M-2Invert.png";
         //console.log('in view');
     } else {
         $0.addClass(' blackNav');
