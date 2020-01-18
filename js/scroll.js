@@ -24,6 +24,7 @@ $(window).scroll(function () {
     // selectors
     var $window = $(window),
         $0 = $('.animated-icon1'),
+        $01 = $('.navbar-nav'),
         $1 = $('#navLink1'),
         $2 = $('#navLink2'),
         $3 = $('#navLink3'),
@@ -48,6 +49,7 @@ $(window).scroll(function () {
         $2.addClass(' editNavDif');
         $3.addClass(' editNavDif');
         $0.removeClass(' blackNav');
+        $01.addClass(' navbarSwitch');
         $1.removeClass(' editNavReg');
         $2.removeClass(' editNavReg');
         $3.removeClass(' editNavReg');
@@ -55,6 +57,7 @@ $(window).scroll(function () {
         //console.log('in view');
     } else {
         $0.addClass(' blackNav');
+        $01.removeClass(' navbarSwitch');
         $1.addClass(' editNavReg');
         $2.addClass(' editNavReg');
         $3.addClass(' editNavReg');

@@ -43,6 +43,8 @@
     <link href="css/main.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148343571-1"></script>
+    <!-- Detect WebP -->
+    <script async src="js/webPDetect.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -67,7 +69,9 @@
     <div class="root">
         <nav class="navbar navbar-expand-lg fixed-top">
             <!-- TODO: Fix and crop the Logo like we did with the picture of me -->
-            <a class="navbar-brand" href="#"><img class="navbar-brandPic" src="img/M-2Opt.png" alt="Michael Ibanez Avatar"></a>
+            <a class="navbar-brand" href="#">
+                <img class="navbar-brandPic" src="img/M-2Opt.png" alt="Michael Ibanez Avatar">
+            </a>
             <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="animated-icon1"><span></span><span></span><span></span></div>
             </button>
@@ -276,8 +280,6 @@
     <!--ScrollBackgroundColor-->
     <script type="text/javascript" src="js/scroll.js"></script>
     <script src="js/main.js"></script>
-
-    <!-- INK: Cool effect for moving mouse -->
 
     <script>
         window.addEventListener("load", () => {

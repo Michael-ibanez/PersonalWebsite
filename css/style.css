@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400, 700);
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic, 400);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 @col: #0f1d24;
 
@@ -348,7 +348,6 @@ nav {
     font-size: 12pt;
 }
 
-
 .form .field:last-child {
     float: right;
     width: auto;
@@ -415,7 +414,7 @@ nav {
     }
 }
 
-@media screen and (max-width:1100px) and (min-width: 861px) {
+@media screen and (max-width: 1100px) and (min-width: 861px) {
     .fixed-top {
         margin-left: 0px;
     }
@@ -591,10 +590,9 @@ nav {
         background: url(/img/cResumePic.png);
         background-size: cover;
     }
-
 }
 
-@media screen and (max-width:860px) and (min-width: 746px) {
+@media screen and (max-width: 860px) and (min-width: 746px) {
     nav {
         max-height: 80px;
         font-size: 19px;
@@ -814,7 +812,7 @@ nav {
     }
 }
 
-@media screen and (max-width:745px) and (min-width: 601px) {
+@media screen and (max-width: 745px) and (min-width: 601px) {
     nav {
         max-height: 80px;
         font-size: 19px;
@@ -1035,7 +1033,7 @@ nav {
     }
 }
 
-@media screen and (max-width:600px) and (min-width: 421px) {
+@media screen and (max-width: 600px) and (min-width: 421px) {
     nav {
         max-height: 80px;
         font-size: 19px;
@@ -1055,6 +1053,27 @@ nav {
         width: 20%;
         padding-top: 0px;
     }
+
+    /* Okay split */
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: 3.5%;
+    }
+
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
+    }
+
+    /* Okay split */
 
     .first-button {
         margin-right: 5%;
@@ -1276,6 +1295,34 @@ nav {
         padding-top: 0px;
     }
 
+    /* Okay split */
+    .navbar-nav {
+        align-items: center;
+    }
+
+    #navbarNav {
+        width: 100vw;
+        background-color: #f4f4f4;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        margin-right: -20px;
+        padding-right: 20px;
+    }
+
+    .navbarSwitch {
+        background: black;
+        margin-right: -20px;
+        padding-right: 20px;
+    }
+
+    .nav-item {
+        width: 30vw;
+        padding-right: 0px;
+    }
+
+    /* Okay split */
+
     .first-button {
         margin-right: 5%;
     }
@@ -1486,10 +1533,10 @@ nav {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
     cursor: pointer;
 }
 
@@ -1505,10 +1552,10 @@ nav {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .animated-icon1 span {
